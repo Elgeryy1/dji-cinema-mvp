@@ -1,0 +1,19 @@
+*.iml
+.gradle
+.kotlin/
+local.properties
+/local.properties
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Signing keys
+*.keystore
+*.jks
+
+# Local documents
+*.docx
+INFORME_*.docx
