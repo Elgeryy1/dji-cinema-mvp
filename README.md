@@ -9,6 +9,12 @@ An Android app that turns a Samsung Galaxy phone into a cinema camera physically
 
 The project is an MVP built to explore the boundaries of Android's camera stack on Samsung devices: constrained high-speed capture sessions, runtime codec/dynamic-range capability detection, and hybrid CameraX/Camera2 operation where the preview and the recorder hand the camera device back and forth.
 
+## Screenshot
+
+<p align="center"><img src="docs/screenshots/camera-ui.png" width="280" alt="DJICinemaMVP cinema camera UI"/></p>
+
+> The cinema camera UI: live preview with resolution / fps / codec / look controls and the gimbal-driven REC button. The "invalid app key" banner appears only because this public build ships a placeholder DJI key — add your own (see Getting started).
+
 ## Features
 
 - **Real-time preview** with CameraX (`PreviewView` hosted in Compose via `AndroidView`)
